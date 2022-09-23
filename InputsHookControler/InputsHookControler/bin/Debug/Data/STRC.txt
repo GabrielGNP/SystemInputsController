@@ -1,6 +1,6 @@
 Days: 67
-Timer: 01:36:54
-ClickIzq: 1108607
+Timer: 01:37:13
+ClickIzq: 1108639
 ClickDer: 115029
 ClickCent: 5230
 ClickX1: 1294

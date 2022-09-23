@@ -270,10 +270,25 @@ namespace InputsHookControler
                     {
                         if (item == "true")
                         {
+                            RegistryKey regkey = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                            if (regkey.GetValueNames().Contains("SystemInputsController"))
+                            {
+                                regkey.DeleteValue("SystemInputsController");
+                                regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
+                            }
+                            else
+                            {
+                                regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
+                            }
                             CheckIniciarEnSistema.Checked = true;
                         }
                         if (item == "false")
                         {
+                            RegistryKey regkey = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                            if (regkey.GetValueNames().Contains("SystemInputsController"))
+                            {
+                                regkey.DeleteValue("SystemInputsController");
+                            }
                             CheckIniciarEnSistema.Checked = false;
                         }
                     }
@@ -406,6 +421,18 @@ namespace InputsHookControler
                         case 4:
                             ArchivoConfigEsc.WriteLine("true"); //Iniciar con el sistema
                             CheckIniciarEnSistema.Checked = true;
+                            RegistryKey regkey = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                            if (regkey.GetValueNames().Contains("SystemInputsController"))
+                            {
+                                regkey.DeleteValue("SystemInputsController");
+                                regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
+                                EscribirConfig(4, "true");
+                            }
+                            else
+                            {
+                                regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
+                                EscribirConfig(4, "true");
+                            }
                             break;
                         case 5:
                             ArchivoConfigEsc.WriteLine("false"); //ContKeyIndividual
@@ -1067,8 +1094,18 @@ namespace InputsHookControler
                  * La direccion del ejecutable debe estar completa y debe tener tambien el nombre del ejecutable junto con la extención
                  * Esto se ará una sola vez 
                 */
-                regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
-                EscribirConfig(4, "true");
+                if (regkey.GetValueNames().Contains("SystemInputsController"))
+                {
+                    regkey.DeleteValue("SystemInputsController");
+                    regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
+                    EscribirConfig(4, "true");
+                }
+                else
+                {
+                    regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
+                    EscribirConfig(4, "true");
+                }
+               
             }
             else
             { // Si Checked es false
@@ -1077,8 +1114,11 @@ namespace InputsHookControler
                  * deje de estar configurado para iniciarse junto con el sistema. 
                  * Elimina el key.
                 */
-                regkey.DeleteValue("SystemInputsController");
-                EscribirConfig(4, "false");
+                if (regkey.GetValueNames().Contains("SystemInputsController"))
+                {
+                    regkey.DeleteValue("SystemInputsController");
+                    EscribirConfig(4, "false");
+                }
             }
         }
 
