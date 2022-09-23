@@ -3902,8 +3902,7 @@ namespace InputsHookControler
             ClickPerSecond.Text = CPS.ToString();
             EscribirConfig(6, CPS.ToString());
         }
-
-        private void ChangeModoAutoclick(object sender, MouseEventArgs e)
+        private void ChangeModoAutoclick(object sender, EventArgs e)
         {
             var objCheck = (RadioButton)sender;
             if (objCheck.Name == "RadioAutoActivar")
@@ -3923,6 +3922,7 @@ namespace InputsHookControler
                 EscribirConfig(9, "ClickDer");
             }
         }
+
         //|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||//
         //|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||//
         //||                                                             ||//
@@ -3979,7 +3979,9 @@ namespace InputsHookControler
             this.Close();
         }
 
-       
+        
+
+
 
 
 

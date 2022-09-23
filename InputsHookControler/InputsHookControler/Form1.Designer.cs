@@ -362,7 +362,7 @@ namespace InputsHookControler
             this.OptionsMaster.Controls.Add(this.muestranormal);
             this.OptionsMaster.Controls.Add(this.muestraShadow);
             this.OptionsMaster.Controls.Add(this.muestraLigth);
-            this.OptionsMaster.Location = new System.Drawing.Point(58, 131);
+            this.OptionsMaster.Location = new System.Drawing.Point(273, 196);
             this.OptionsMaster.Margin = new System.Windows.Forms.Padding(4);
             this.OptionsMaster.Name = "OptionsMaster";
             this.OptionsMaster.Size = new System.Drawing.Size(292, 364);
@@ -1117,6 +1117,7 @@ namespace InputsHookControler
             this.DownCPS.Size = new System.Drawing.Size(20, 20);
             this.DownCPS.TabIndex = 78;
             this.DownCPS.UseVisualStyleBackColor = false;
+            this.DownCPS.Click += new System.EventHandler(this.CambioDeCPS);
             // 
             // UpCPS
             // 
@@ -1134,6 +1135,7 @@ namespace InputsHookControler
             this.UpCPS.Size = new System.Drawing.Size(20, 20);
             this.UpCPS.TabIndex = 77;
             this.UpCPS.UseVisualStyleBackColor = false;
+            this.UpCPS.Click += new System.EventHandler(this.CambioDeCPS);
             // 
             // TotalAutoClicks
             // 
@@ -1166,6 +1168,7 @@ namespace InputsHookControler
             this.RadioAutoMantener.TabIndex = 44;
             this.RadioAutoMantener.Text = "Mantener";
             this.RadioAutoMantener.UseVisualStyleBackColor = true;
+            this.RadioAutoMantener.CheckedChanged += new System.EventHandler(this.ChangeModoAutoclick);
             // 
             // RadioAutoActivar
             // 
@@ -1180,6 +1183,7 @@ namespace InputsHookControler
             this.RadioAutoActivar.TabStop = true;
             this.RadioAutoActivar.Text = "Activar";
             this.RadioAutoActivar.UseVisualStyleBackColor = true;
+            this.RadioAutoActivar.CheckedChanged += new System.EventHandler(this.ChangeModoAutoclick);
             // 
             // LabelCdCht
             // 

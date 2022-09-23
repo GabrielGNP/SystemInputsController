@@ -1,9 +1,9 @@
 Days: 0
-Timer: 00:00:43
-ClickIzq: 20
+Timer: 00:01:08
+ClickIzq: 42
 ClickDer: 0
 ClickCent: 0
 ClickX1: 0
-ClickX2: 0
+ClickX2: 1
 TicsRR: 0
-PulsKeyBoard: 5
+PulsKeyBoard: 10
