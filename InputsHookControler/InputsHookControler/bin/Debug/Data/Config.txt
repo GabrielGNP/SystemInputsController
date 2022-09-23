@@ -1,0 +1,10 @@
+AplicationBlack
+ColorOrange
+ColorFloralWhite
+false
+false
+false
+20
+Add + LControl 
+Activar
+ClickIzq

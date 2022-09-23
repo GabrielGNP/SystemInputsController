@@ -1,0 +1,25 @@
+D:\InputsHookControler\InputsHookControler\InputsHookControler\bin\Debug\FontAwesome.Sharp.dll
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\InputsHookControler.Form1.resources
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\InputsHookControler.Properties.Resources.resources
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.GenerateResource.cache
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.CoreCompileInputs.cache
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.CopyComplete
+D:\InputsHookControler\InputsHookControler\InputsHookControler\bin\Debug\System Inputs Controler-SIC.exe.config
+D:\InputsHookControler\InputsHookControler\InputsHookControler\bin\Debug\System Inputs Controler-SIC.exe
+D:\InputsHookControler\InputsHookControler\InputsHookControler\bin\Debug\System Inputs Controler-SIC.pdb
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\System Inputs Controler-SIC.exe
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\System Inputs Controler-SIC.pdb
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\bin\Debug\System Inputs Controler-SIC.exe.config
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\bin\Debug\System Inputs Controler-SIC.exe
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\bin\Debug\System Inputs Controler-SIC.pdb
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\obj\Debug\InputsHookControler.Form1.resources
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\obj\Debug\InputsHookControler.Properties.Resources.resources
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.GenerateResource.cache
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\obj\Debug\System Inputs Controler-SIC.exe
+C:\Users\USUARIO\Desktop\Programación y lenguajes\C#\SIC\InputsHookControler\InputsHookControler\obj\Debug\System Inputs Controler-SIC.pdb
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.AssemblyReference.cache
+D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Debug\SystemInputsControler.csproj.SuggestedBindingRedirects.cache

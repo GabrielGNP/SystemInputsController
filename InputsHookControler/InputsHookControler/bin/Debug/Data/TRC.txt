@@ -1,0 +1,9 @@
+Days: 67
+Timer: 01:37:02
+ClickIzq: 1108631
+ClickDer: 115029
+ClickCent: 5230
+ClickX1: 1294
+ClickX2: 449
+TicsRR: 1120753
+PulsKeyBoard: 14
