@@ -1,10 +1,10 @@
 AplicationBlack
-ColorOrange
+ColorRed
 ColorFloralWhite
 false
+true
 false
-false
-20
-Add + LControl 
+10
+A + LControl
 Activar
 ClickIzq

@@ -10,3 +10,16 @@ D:\InputsHookControler\InputsHookControler\InputsHookControler\bin\Release\Syste
 D:\InputsHookControler\InputsHookControler\InputsHookControler\bin\Release\System Inputs Controler-SIC.pdb
 D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Release\System Inputs Controler-SIC.exe
 D:\InputsHookControler\InputsHookControler\InputsHookControler\obj\Release\System Inputs Controler-SIC.pdb
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\bin\Release\System Inputs Controler-SIC.exe.config
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\bin\Release\System Inputs Controler-SIC.exe
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\bin\Release\System Inputs Controler-SIC.pdb
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\bin\Release\FontAwesome.Sharp.dll
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\SystemInputsControler.csproj.AssemblyReference.cache
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\SystemInputsControler.csproj.SuggestedBindingRedirects.cache
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\InputsHookControler.Form1.resources
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\InputsHookControler.Properties.Resources.resources
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\SystemInputsControler.csproj.GenerateResource.cache
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\SystemInputsControler.csproj.CoreCompileInputs.cache
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\SystemInputsControler.csproj.CopyComplete
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\System Inputs Controler-SIC.exe
+D:\InputsHookControler\SystemInputsController\InputsHookControler\InputsHookControler\obj\Release\System Inputs Controler-SIC.pdb

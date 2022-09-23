@@ -170,10 +170,7 @@ namespace InputsHookControler
             System.IO.File.Move(sourceFileA, destinationFileA);
             System.IO.File.Move(sourceFileB, destinationFileB);
             */
-
-            Color myColor = Color.FromArgb(255, 181, 178);
-            string hex = myColor.R.ToString("X2") + myColor.G.ToString("X2") + myColor.B.ToString("X2");
-            //MessageBox.Show(SeparadorIzqBtn3.BackColor.R.ToString("X2")+ SeparadorIzqBtn3.BackColor.G.ToString("X2")+ SeparadorIzqBtn3.BackColor.B.ToString("X2"));
+           
         }
 
         private void Form1_Shown(object sender, EventArgs e)
@@ -192,12 +189,10 @@ namespace InputsHookControler
                 Directory.CreateDirectory(ProgramDirectory + "\\Data");
             }
 
-             if (File.Exists(ProgramDirectory+ "\\Data\\Config.txt"))
+            if (File.Exists(ProgramDirectory+ "\\Data\\Config.txt"))
             {
                 var Configs = CargarConfigs();
                 var i = 0;
-                
-
                 /*
                  * 0º linea de config | Color del sistema
                  * 1º linea de config | Paleta de color
@@ -404,35 +399,21 @@ namespace InputsHookControler
                     {
                         case 0:
                             ArchivoConfigEsc.WriteLine("AplicationBlack");
-                            ColorProgram("AplicationBlack");
                             break;
                         case 1:
                             ArchivoConfigEsc.WriteLine("ColorOrigin");
-                            PaletaColorPrograma("ColorOrigin");
                             break;
                         case 2:
                             ArchivoConfigEsc.WriteLine("ColorFloralWhite");
-                            ColorTexto(Color.FloralWhite);
+
                             break;
                         case 3:
                             ArchivoConfigEsc.WriteLine("false"); //Bold
-                            ChangeBold.Checked = false;
+
                             break;
                         case 4:
                             ArchivoConfigEsc.WriteLine("true"); //Iniciar con el sistema
-                            CheckIniciarEnSistema.Checked = true;
-                            RegistryKey regkey = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
-                            if (regkey.GetValueNames().Contains("SystemInputsController"))
-                            {
-                                regkey.DeleteValue("SystemInputsController");
-                                regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
-                                EscribirConfig(4, "true");
-                            }
-                            else
-                            {
-                                regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
-                                EscribirConfig(4, "true");
-                            }
+                           
                             break;
                         case 5:
                             ArchivoConfigEsc.WriteLine("false"); //ContKeyIndividual
@@ -440,24 +421,44 @@ namespace InputsHookControler
                             break;
                         case 6:
                             ArchivoConfigEsc.WriteLine("10");
-                            ClickPerSecond.Text = "10";
+
                             break;
                         case 7:
                             ArchivoConfigEsc.WriteLine("A + LControl");
-                            LControlPress = true;
-                            NewKeyPress = (Keys)Key.ConvertFromString("A");
+
                             break;
                         case 8:
                             ArchivoConfigEsc.WriteLine("Activar");
-                            RadioAutoActivar.Checked = true;
+
                             break;
                         case 9:
                             ArchivoConfigEsc.WriteLine("ClickIzq");
-                            RadioClickIzq.Checked = true;
+
                             break;
                     }
+                    
                 }
                 ArchivoConfigEsc.Close();
+                ColorProgram("AplicationBlack");
+                PaletaColorPrograma("ColorOrigin");
+                ColorTexto(Color.FloralWhite);
+                ChangeBold.Checked = false;
+                CheckIniciarEnSistema.Checked = true;
+                RegistryKey regkey = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                if (regkey.GetValueNames().Contains("SystemInputsController"))
+                {
+                    regkey.DeleteValue("SystemInputsController");
+                    regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
+                }
+                else
+                {
+                    regkey.SetValue("SystemInputsController", ProgramDirectory + "\\System Inputs Controler-SIC.exe");
+                }
+                ClickPerSecond.Text = "10";
+                LControlPress = true;
+                NewKeyPress = (Keys)Key.ConvertFromString("A");
+                RadioAutoActivar.Checked = true;
+                RadioClickIzq.Checked = true;
 
             }
 
@@ -984,11 +985,12 @@ namespace InputsHookControler
 
         private void CambiarPaletaColor(object sender, EventArgs e)
         {
-            NoFocus_Click(sender, e);
+            
             var btn = (Button)sender;
 
             PaletaColorPrograma(btn.Name);
             EscribirConfig(1, btn.Name);
+            NoFocus_Click(sender, e);
         }
 
         private void CambiarColorTexto(object sender, EventArgs e)
