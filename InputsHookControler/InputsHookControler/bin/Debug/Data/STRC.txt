@@ -1,7 +1,7 @@
 Days: 0
-Timer: 00:01:08
-ClickIzq: 42
-ClickDer: 0
+Timer: 00:01:58
+ClickIzq: 75
+ClickDer: 1
 ClickCent: 0
 ClickX1: 0
 ClickX2: 1

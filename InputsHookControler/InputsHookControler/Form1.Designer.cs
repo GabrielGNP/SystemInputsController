@@ -39,9 +39,6 @@ namespace InputsHookControler
             this.panel18 = new System.Windows.Forms.Panel();
             this.NameProgram = new System.Windows.Forms.Label();
             this.MaximizeProgram = new FontAwesome.Sharp.IconButton();
-            this.gradientPanelRight1 = new InputsHookControler.Estilos.GradientPanel();
-            this.gradientPanelUP = new InputsHookControler.Estilos.GradientPanel();
-            this.gradientPanelLeft1 = new InputsHookControler.Estilos.GradientPanel();
             this.BGWorkerAutoclicker = new System.ComponentModel.BackgroundWorker();
             this.ActualizadorContadores = new System.Windows.Forms.Timer(this.components);
             this.Temporizador = new System.Windows.Forms.Timer(this.components);
@@ -52,24 +49,11 @@ namespace InputsHookControler
             this.OptionsMaster = new System.Windows.Forms.Panel();
             this.SubTitulo2OptionsMaster = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.AplicationBlack = new InputsHookControler.Estilos.ButonStyles();
-            this.AplicationWhite = new InputsHookControler.Estilos.ButonStyles();
             this.label1 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.SubTitulo1OptionsMaster = new System.Windows.Forms.Label();
             this.InfoColor = new System.Windows.Forms.Label();
-            this.ColorOrigin = new InputsHookControler.Estilos.ButonStyles();
-            this.ColorRed = new InputsHookControler.Estilos.ButonStyles();
-            this.ColorOrange = new InputsHookControler.Estilos.ButonStyles();
-            this.ColorGrey = new InputsHookControler.Estilos.ButonStyles();
-            this.ColorGreen = new InputsHookControler.Estilos.ButonStyles();
-            this.ColorGreyblue = new InputsHookControler.Estilos.ButonStyles();
-            this.ColorTurquoise = new InputsHookControler.Estilos.ButonStyles();
             this.ChangeBold = new System.Windows.Forms.CheckBox();
-            this.ColorCeleste = new InputsHookControler.Estilos.ButonStyles();
-            this.TextBlack = new InputsHookControler.Estilos.ButonStyles();
-            this.ColorViolet = new InputsHookControler.Estilos.ButonStyles();
-            this.TextWhite = new InputsHookControler.Estilos.ButonStyles();
             this.InfColorText = new System.Windows.Forms.Label();
             this.CheckIniciarEnSistema = new System.Windows.Forms.CheckBox();
             this.Label_Idioma = new System.Windows.Forms.Label();
@@ -111,22 +95,35 @@ namespace InputsHookControler
             this.LabelCdCht = new System.Windows.Forms.Label();
             this.LabelClickForSecond = new System.Windows.Forms.Label();
             this.LabelCdChelua = new System.Windows.Forms.Label();
-            this.AsignarBtnAutoClick = new InputsHookControler.Estilos.ButonStyles();
             this.panel20 = new System.Windows.Forms.Panel();
             this.RadioClickDer = new System.Windows.Forms.RadioButton();
             this.RadioClickIzq = new System.Windows.Forms.RadioButton();
             this.InfTeclaAsignada = new System.Windows.Forms.Label();
             this.AutoClicksInActivation = new System.Windows.Forms.Label();
+            this.AplicationBlack = new InputsHookControler.Estilos.ButonStyles();
+            this.AplicationWhite = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorOrigin = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorRed = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorOrange = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorGrey = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorGreen = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorGreyblue = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorTurquoise = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorCeleste = new InputsHookControler.Estilos.ButonStyles();
+            this.TextBlack = new InputsHookControler.Estilos.ButonStyles();
+            this.ColorViolet = new InputsHookControler.Estilos.ButonStyles();
+            this.TextWhite = new InputsHookControler.Estilos.ButonStyles();
+            this.AsignarBtnAutoClick = new InputsHookControler.Estilos.ButonStyles();
             this.Separador1 = new InputsHookControler.Estilos.GradientPanel();
             this.gradientPanelRight2 = new InputsHookControler.Estilos.GradientPanel();
             this.gradientPanelLeft2 = new InputsHookControler.Estilos.GradientPanel();
             this.gradientPanelBottom = new InputsHookControler.Estilos.GradientPanel();
+            this.gradientPanelRight1 = new InputsHookControler.Estilos.GradientPanel();
+            this.gradientPanelUP = new InputsHookControler.Estilos.GradientPanel();
+            this.gradientPanelLeft1 = new InputsHookControler.Estilos.GradientPanel();
             this.panel16.SuspendLayout();
             this.BarraSuperior.SuspendLayout();
             this.panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelRight1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelUP)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelLeft1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.OptionsMaster.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -140,6 +137,9 @@ namespace InputsHookControler
             ((System.ComponentModel.ISupportInitialize)(this.gradientPanelRight2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gradientPanelLeft2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gradientPanelBottom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelRight1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelUP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelLeft1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel16
@@ -267,42 +267,6 @@ namespace InputsHookControler
             this.MaximizeProgram.Visible = false;
             this.MaximizeProgram.Click += new System.EventHandler(this.MaximizeProgram_Click);
             // 
-            // gradientPanelRight1
-            // 
-            this.gradientPanelRight1.Angle = 90F;
-            this.gradientPanelRight1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.gradientPanelRight1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
-            this.gradientPanelRight1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.gradientPanelRight1.Location = new System.Drawing.Point(577, 3);
-            this.gradientPanelRight1.Name = "gradientPanelRight1";
-            this.gradientPanelRight1.Size = new System.Drawing.Size(3, 33);
-            this.gradientPanelRight1.TabIndex = 19;
-            this.gradientPanelRight1.TabStop = false;
-            // 
-            // gradientPanelUP
-            // 
-            this.gradientPanelUP.Angle = 180F;
-            this.gradientPanelUP.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.gradientPanelUP.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
-            this.gradientPanelUP.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gradientPanelUP.Location = new System.Drawing.Point(3, 0);
-            this.gradientPanelUP.Name = "gradientPanelUP";
-            this.gradientPanelUP.Size = new System.Drawing.Size(577, 3);
-            this.gradientPanelUP.TabIndex = 20;
-            this.gradientPanelUP.TabStop = false;
-            // 
-            // gradientPanelLeft1
-            // 
-            this.gradientPanelLeft1.Angle = 270F;
-            this.gradientPanelLeft1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.gradientPanelLeft1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
-            this.gradientPanelLeft1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gradientPanelLeft1.Location = new System.Drawing.Point(0, 0);
-            this.gradientPanelLeft1.Name = "gradientPanelLeft1";
-            this.gradientPanelLeft1.Size = new System.Drawing.Size(3, 36);
-            this.gradientPanelLeft1.TabIndex = 21;
-            this.gradientPanelLeft1.TabStop = false;
-            // 
             // BGWorkerAutoclicker
             // 
             this.BGWorkerAutoclicker.WorkerReportsProgress = true;
@@ -406,46 +370,6 @@ namespace InputsHookControler
             this.panel7.Size = new System.Drawing.Size(292, 174);
             this.panel7.TabIndex = 38;
             // 
-            // AplicationBlack
-            // 
-            this.AplicationBlack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.AplicationBlack.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.AplicationBlack.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.AplicationBlack.BorderRadius = 5;
-            this.AplicationBlack.BorderSize = 0;
-            this.AplicationBlack.FlatAppearance.BorderSize = 0;
-            this.AplicationBlack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AplicationBlack.ForeColor = System.Drawing.Color.Wheat;
-            this.AplicationBlack.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.AplicationBlack.Location = new System.Drawing.Point(170, 50);
-            this.AplicationBlack.Margin = new System.Windows.Forms.Padding(4);
-            this.AplicationBlack.Name = "AplicationBlack";
-            this.AplicationBlack.Size = new System.Drawing.Size(20, 20);
-            this.AplicationBlack.TabIndex = 39;
-            this.AplicationBlack.TextColor = System.Drawing.Color.Wheat;
-            this.AplicationBlack.UseVisualStyleBackColor = false;
-            this.AplicationBlack.Click += new System.EventHandler(this.CambiarColorAplication);
-            // 
-            // AplicationWhite
-            // 
-            this.AplicationWhite.BackColor = System.Drawing.Color.FloralWhite;
-            this.AplicationWhite.BackgroundColor = System.Drawing.Color.FloralWhite;
-            this.AplicationWhite.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.AplicationWhite.BorderRadius = 5;
-            this.AplicationWhite.BorderSize = 0;
-            this.AplicationWhite.FlatAppearance.BorderSize = 0;
-            this.AplicationWhite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AplicationWhite.ForeColor = System.Drawing.Color.Wheat;
-            this.AplicationWhite.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.AplicationWhite.Location = new System.Drawing.Point(195, 50);
-            this.AplicationWhite.Margin = new System.Windows.Forms.Padding(4);
-            this.AplicationWhite.Name = "AplicationWhite";
-            this.AplicationWhite.Size = new System.Drawing.Size(20, 20);
-            this.AplicationWhite.TabIndex = 38;
-            this.AplicationWhite.TextColor = System.Drawing.Color.Wheat;
-            this.AplicationWhite.UseVisualStyleBackColor = false;
-            this.AplicationWhite.Click += new System.EventHandler(this.CambiarColorAplication);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -488,153 +412,6 @@ namespace InputsHookControler
             this.InfoColor.TabIndex = 18;
             this.InfoColor.Text = "Paleta de Color";
             // 
-            // ColorOrigin
-            // 
-            this.ColorOrigin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
-            this.ColorOrigin.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
-            this.ColorOrigin.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorOrigin.BorderRadius = 5;
-            this.ColorOrigin.BorderSize = 0;
-            this.ColorOrigin.FlatAppearance.BorderSize = 0;
-            this.ColorOrigin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorOrigin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorOrigin.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorOrigin.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorOrigin.Location = new System.Drawing.Point(170, 85);
-            this.ColorOrigin.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorOrigin.Name = "ColorOrigin";
-            this.ColorOrigin.Size = new System.Drawing.Size(20, 20);
-            this.ColorOrigin.TabIndex = 36;
-            this.ColorOrigin.TextColor = System.Drawing.Color.Wheat;
-            this.ColorOrigin.UseVisualStyleBackColor = false;
-            this.ColorOrigin.Click += new System.EventHandler(this.CambiarPaletaColor);
-            // 
-            // ColorRed
-            // 
-            this.ColorRed.BackColor = System.Drawing.Color.Firebrick;
-            this.ColorRed.BackgroundColor = System.Drawing.Color.Firebrick;
-            this.ColorRed.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorRed.BorderRadius = 5;
-            this.ColorRed.BorderSize = 0;
-            this.ColorRed.FlatAppearance.BorderSize = 0;
-            this.ColorRed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorRed.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorRed.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorRed.Location = new System.Drawing.Point(195, 85);
-            this.ColorRed.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorRed.Name = "ColorRed";
-            this.ColorRed.Size = new System.Drawing.Size(20, 20);
-            this.ColorRed.TabIndex = 20;
-            this.ColorRed.TextColor = System.Drawing.Color.Wheat;
-            this.ColorRed.UseVisualStyleBackColor = false;
-            this.ColorRed.Click += new System.EventHandler(this.CambiarPaletaColor);
-            // 
-            // ColorOrange
-            // 
-            this.ColorOrange.BackColor = System.Drawing.Color.Orange;
-            this.ColorOrange.BackgroundColor = System.Drawing.Color.Orange;
-            this.ColorOrange.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorOrange.BorderRadius = 5;
-            this.ColorOrange.BorderSize = 0;
-            this.ColorOrange.FlatAppearance.BorderSize = 0;
-            this.ColorOrange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorOrange.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorOrange.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorOrange.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorOrange.Location = new System.Drawing.Point(219, 85);
-            this.ColorOrange.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorOrange.Name = "ColorOrange";
-            this.ColorOrange.Size = new System.Drawing.Size(20, 20);
-            this.ColorOrange.TabIndex = 21;
-            this.ColorOrange.TextColor = System.Drawing.Color.Wheat;
-            this.ColorOrange.UseVisualStyleBackColor = false;
-            this.ColorOrange.Click += new System.EventHandler(this.CambiarPaletaColor);
-            // 
-            // ColorGrey
-            // 
-            this.ColorGrey.BackColor = System.Drawing.Color.DarkGray;
-            this.ColorGrey.BackgroundColor = System.Drawing.Color.DarkGray;
-            this.ColorGrey.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorGrey.BorderRadius = 5;
-            this.ColorGrey.BorderSize = 0;
-            this.ColorGrey.FlatAppearance.BorderSize = 0;
-            this.ColorGrey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorGrey.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorGrey.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorGrey.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorGrey.Location = new System.Drawing.Point(244, 119);
-            this.ColorGrey.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorGrey.Name = "ColorGrey";
-            this.ColorGrey.Size = new System.Drawing.Size(20, 20);
-            this.ColorGrey.TabIndex = 34;
-            this.ColorGrey.TextColor = System.Drawing.Color.Wheat;
-            this.ColorGrey.UseVisualStyleBackColor = false;
-            this.ColorGrey.Click += new System.EventHandler(this.CambiarColorTexto);
-            // 
-            // ColorGreen
-            // 
-            this.ColorGreen.BackColor = System.Drawing.Color.YellowGreen;
-            this.ColorGreen.BackgroundColor = System.Drawing.Color.YellowGreen;
-            this.ColorGreen.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorGreen.BorderRadius = 5;
-            this.ColorGreen.BorderSize = 0;
-            this.ColorGreen.FlatAppearance.BorderSize = 0;
-            this.ColorGreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorGreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorGreen.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorGreen.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorGreen.Location = new System.Drawing.Point(244, 85);
-            this.ColorGreen.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorGreen.Name = "ColorGreen";
-            this.ColorGreen.Size = new System.Drawing.Size(20, 20);
-            this.ColorGreen.TabIndex = 22;
-            this.ColorGreen.TextColor = System.Drawing.Color.Wheat;
-            this.ColorGreen.UseVisualStyleBackColor = false;
-            this.ColorGreen.Click += new System.EventHandler(this.CambiarPaletaColor);
-            // 
-            // ColorGreyblue
-            // 
-            this.ColorGreyblue.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ColorGreyblue.BackgroundColor = System.Drawing.Color.LightSlateGray;
-            this.ColorGreyblue.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorGreyblue.BorderRadius = 5;
-            this.ColorGreyblue.BorderSize = 0;
-            this.ColorGreyblue.FlatAppearance.BorderSize = 0;
-            this.ColorGreyblue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorGreyblue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorGreyblue.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorGreyblue.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorGreyblue.Location = new System.Drawing.Point(219, 119);
-            this.ColorGreyblue.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorGreyblue.Name = "ColorGreyblue";
-            this.ColorGreyblue.Size = new System.Drawing.Size(20, 20);
-            this.ColorGreyblue.TabIndex = 33;
-            this.ColorGreyblue.TextColor = System.Drawing.Color.Wheat;
-            this.ColorGreyblue.UseVisualStyleBackColor = false;
-            this.ColorGreyblue.Click += new System.EventHandler(this.CambiarColorTexto);
-            // 
-            // ColorTurquoise
-            // 
-            this.ColorTurquoise.BackColor = System.Drawing.Color.Turquoise;
-            this.ColorTurquoise.BackgroundColor = System.Drawing.Color.Turquoise;
-            this.ColorTurquoise.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorTurquoise.BorderRadius = 5;
-            this.ColorTurquoise.BorderSize = 0;
-            this.ColorTurquoise.FlatAppearance.BorderSize = 0;
-            this.ColorTurquoise.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorTurquoise.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorTurquoise.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorTurquoise.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorTurquoise.Location = new System.Drawing.Point(268, 85);
-            this.ColorTurquoise.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorTurquoise.Name = "ColorTurquoise";
-            this.ColorTurquoise.Size = new System.Drawing.Size(20, 20);
-            this.ColorTurquoise.TabIndex = 23;
-            this.ColorTurquoise.TextColor = System.Drawing.Color.Wheat;
-            this.ColorTurquoise.UseVisualStyleBackColor = false;
-            this.ColorTurquoise.Click += new System.EventHandler(this.CambiarPaletaColor);
-            // 
             // ChangeBold
             // 
             this.ChangeBold.AutoSize = true;
@@ -646,90 +423,6 @@ namespace InputsHookControler
             this.ChangeBold.Text = "Bold";
             this.ChangeBold.UseVisualStyleBackColor = true;
             this.ChangeBold.CheckedChanged += new System.EventHandler(this.ChangeBold_CheckedChanged);
-            // 
-            // ColorCeleste
-            // 
-            this.ColorCeleste.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ColorCeleste.BackgroundColor = System.Drawing.Color.CornflowerBlue;
-            this.ColorCeleste.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorCeleste.BorderRadius = 5;
-            this.ColorCeleste.BorderSize = 0;
-            this.ColorCeleste.FlatAppearance.BorderSize = 0;
-            this.ColorCeleste.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorCeleste.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorCeleste.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorCeleste.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorCeleste.Location = new System.Drawing.Point(292, 85);
-            this.ColorCeleste.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorCeleste.Name = "ColorCeleste";
-            this.ColorCeleste.Size = new System.Drawing.Size(20, 20);
-            this.ColorCeleste.TabIndex = 24;
-            this.ColorCeleste.TextColor = System.Drawing.Color.Wheat;
-            this.ColorCeleste.UseVisualStyleBackColor = false;
-            this.ColorCeleste.Click += new System.EventHandler(this.CambiarPaletaColor);
-            // 
-            // TextBlack
-            // 
-            this.TextBlack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.TextBlack.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.TextBlack.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.TextBlack.BorderRadius = 5;
-            this.TextBlack.BorderSize = 0;
-            this.TextBlack.FlatAppearance.BorderSize = 0;
-            this.TextBlack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TextBlack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.TextBlack.ForeColor = System.Drawing.Color.Wheat;
-            this.TextBlack.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.TextBlack.Location = new System.Drawing.Point(195, 119);
-            this.TextBlack.Margin = new System.Windows.Forms.Padding(4);
-            this.TextBlack.Name = "TextBlack";
-            this.TextBlack.Size = new System.Drawing.Size(20, 20);
-            this.TextBlack.TabIndex = 31;
-            this.TextBlack.TextColor = System.Drawing.Color.Wheat;
-            this.TextBlack.UseVisualStyleBackColor = false;
-            this.TextBlack.Click += new System.EventHandler(this.CambiarColorTexto);
-            // 
-            // ColorViolet
-            // 
-            this.ColorViolet.BackColor = System.Drawing.Color.MediumPurple;
-            this.ColorViolet.BackgroundColor = System.Drawing.Color.MediumPurple;
-            this.ColorViolet.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.ColorViolet.BorderRadius = 5;
-            this.ColorViolet.BorderSize = 0;
-            this.ColorViolet.FlatAppearance.BorderSize = 0;
-            this.ColorViolet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ColorViolet.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ColorViolet.ForeColor = System.Drawing.Color.Wheat;
-            this.ColorViolet.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.ColorViolet.Location = new System.Drawing.Point(316, 85);
-            this.ColorViolet.Margin = new System.Windows.Forms.Padding(4);
-            this.ColorViolet.Name = "ColorViolet";
-            this.ColorViolet.Size = new System.Drawing.Size(20, 20);
-            this.ColorViolet.TabIndex = 25;
-            this.ColorViolet.TextColor = System.Drawing.Color.Wheat;
-            this.ColorViolet.UseVisualStyleBackColor = false;
-            this.ColorViolet.Click += new System.EventHandler(this.CambiarPaletaColor);
-            // 
-            // TextWhite
-            // 
-            this.TextWhite.BackColor = System.Drawing.Color.FloralWhite;
-            this.TextWhite.BackgroundColor = System.Drawing.Color.FloralWhite;
-            this.TextWhite.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.TextWhite.BorderRadius = 5;
-            this.TextWhite.BorderSize = 0;
-            this.TextWhite.FlatAppearance.BorderSize = 0;
-            this.TextWhite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TextWhite.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.TextWhite.ForeColor = System.Drawing.Color.Wheat;
-            this.TextWhite.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.TextWhite.Location = new System.Drawing.Point(171, 119);
-            this.TextWhite.Margin = new System.Windows.Forms.Padding(4);
-            this.TextWhite.Name = "TextWhite";
-            this.TextWhite.Size = new System.Drawing.Size(20, 20);
-            this.TextWhite.TabIndex = 30;
-            this.TextWhite.TextColor = System.Drawing.Color.Wheat;
-            this.TextWhite.UseVisualStyleBackColor = false;
-            this.TextWhite.Click += new System.EventHandler(this.CambiarColorTexto);
             // 
             // InfColorText
             // 
@@ -1214,25 +907,6 @@ namespace InputsHookControler
             this.LabelCdChelua.TabIndex = 74;
             this.LabelCdChelua.Text = "Cantidad de Clicks hechos \r\n(última activación)\r\n";
             // 
-            // AsignarBtnAutoClick
-            // 
-            this.AsignarBtnAutoClick.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(89)))), ((int)(((byte)(255)))));
-            this.AsignarBtnAutoClick.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(89)))), ((int)(((byte)(255)))));
-            this.AsignarBtnAutoClick.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.AsignarBtnAutoClick.BorderRadius = 20;
-            this.AsignarBtnAutoClick.BorderSize = 0;
-            this.AsignarBtnAutoClick.FlatAppearance.BorderSize = 0;
-            this.AsignarBtnAutoClick.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AsignarBtnAutoClick.ForeColor = System.Drawing.Color.FloralWhite;
-            this.AsignarBtnAutoClick.Location = new System.Drawing.Point(194, 49);
-            this.AsignarBtnAutoClick.Name = "AsignarBtnAutoClick";
-            this.AsignarBtnAutoClick.Size = new System.Drawing.Size(111, 40);
-            this.AsignarBtnAutoClick.TabIndex = 69;
-            this.AsignarBtnAutoClick.Text = "Asignar Tecla";
-            this.AsignarBtnAutoClick.TextColor = System.Drawing.Color.FloralWhite;
-            this.AsignarBtnAutoClick.UseVisualStyleBackColor = false;
-            this.AsignarBtnAutoClick.Click += new System.EventHandler(this.AsignarBtnAutoClick_Click);
-            // 
             // panel20
             // 
             this.panel20.Controls.Add(this.RadioClickDer);
@@ -1253,6 +927,7 @@ namespace InputsHookControler
             this.RadioClickDer.TabIndex = 1;
             this.RadioClickDer.Text = "Click Derecho";
             this.RadioClickDer.UseVisualStyleBackColor = true;
+            this.RadioClickDer.CheckedChanged += new System.EventHandler(this.ChangeModoAutoclick);
             // 
             // RadioClickIzq
             // 
@@ -1266,6 +941,7 @@ namespace InputsHookControler
             this.RadioClickIzq.TabStop = true;
             this.RadioClickIzq.Text = "Click Izquierdo";
             this.RadioClickIzq.UseVisualStyleBackColor = true;
+            this.RadioClickIzq.CheckedChanged += new System.EventHandler(this.ChangeModoAutoclick);
             // 
             // InfTeclaAsignada
             // 
@@ -1285,6 +961,296 @@ namespace InputsHookControler
             this.AutoClicksInActivation.TabIndex = 71;
             this.AutoClicksInActivation.Text = "0";
             this.AutoClicksInActivation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // AplicationBlack
+            // 
+            this.AplicationBlack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.AplicationBlack.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.AplicationBlack.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.AplicationBlack.BorderRadius = 5;
+            this.AplicationBlack.BorderSize = 0;
+            this.AplicationBlack.FlatAppearance.BorderSize = 0;
+            this.AplicationBlack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AplicationBlack.ForeColor = System.Drawing.Color.Wheat;
+            this.AplicationBlack.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.AplicationBlack.Location = new System.Drawing.Point(170, 50);
+            this.AplicationBlack.Margin = new System.Windows.Forms.Padding(4);
+            this.AplicationBlack.Name = "AplicationBlack";
+            this.AplicationBlack.Size = new System.Drawing.Size(20, 20);
+            this.AplicationBlack.TabIndex = 39;
+            this.AplicationBlack.TextColor = System.Drawing.Color.Wheat;
+            this.AplicationBlack.UseVisualStyleBackColor = false;
+            this.AplicationBlack.Click += new System.EventHandler(this.CambiarColorAplication);
+            // 
+            // AplicationWhite
+            // 
+            this.AplicationWhite.BackColor = System.Drawing.Color.FloralWhite;
+            this.AplicationWhite.BackgroundColor = System.Drawing.Color.FloralWhite;
+            this.AplicationWhite.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.AplicationWhite.BorderRadius = 5;
+            this.AplicationWhite.BorderSize = 0;
+            this.AplicationWhite.FlatAppearance.BorderSize = 0;
+            this.AplicationWhite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AplicationWhite.ForeColor = System.Drawing.Color.Wheat;
+            this.AplicationWhite.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.AplicationWhite.Location = new System.Drawing.Point(195, 50);
+            this.AplicationWhite.Margin = new System.Windows.Forms.Padding(4);
+            this.AplicationWhite.Name = "AplicationWhite";
+            this.AplicationWhite.Size = new System.Drawing.Size(20, 20);
+            this.AplicationWhite.TabIndex = 38;
+            this.AplicationWhite.TextColor = System.Drawing.Color.Wheat;
+            this.AplicationWhite.UseVisualStyleBackColor = false;
+            this.AplicationWhite.Click += new System.EventHandler(this.CambiarColorAplication);
+            // 
+            // ColorOrigin
+            // 
+            this.ColorOrigin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
+            this.ColorOrigin.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
+            this.ColorOrigin.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorOrigin.BorderRadius = 5;
+            this.ColorOrigin.BorderSize = 0;
+            this.ColorOrigin.FlatAppearance.BorderSize = 0;
+            this.ColorOrigin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorOrigin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorOrigin.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorOrigin.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorOrigin.Location = new System.Drawing.Point(170, 85);
+            this.ColorOrigin.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorOrigin.Name = "ColorOrigin";
+            this.ColorOrigin.Size = new System.Drawing.Size(20, 20);
+            this.ColorOrigin.TabIndex = 36;
+            this.ColorOrigin.TextColor = System.Drawing.Color.Wheat;
+            this.ColorOrigin.UseVisualStyleBackColor = false;
+            this.ColorOrigin.Click += new System.EventHandler(this.CambiarPaletaColor);
+            // 
+            // ColorRed
+            // 
+            this.ColorRed.BackColor = System.Drawing.Color.Firebrick;
+            this.ColorRed.BackgroundColor = System.Drawing.Color.Firebrick;
+            this.ColorRed.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorRed.BorderRadius = 5;
+            this.ColorRed.BorderSize = 0;
+            this.ColorRed.FlatAppearance.BorderSize = 0;
+            this.ColorRed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorRed.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorRed.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorRed.Location = new System.Drawing.Point(195, 85);
+            this.ColorRed.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorRed.Name = "ColorRed";
+            this.ColorRed.Size = new System.Drawing.Size(20, 20);
+            this.ColorRed.TabIndex = 20;
+            this.ColorRed.TextColor = System.Drawing.Color.Wheat;
+            this.ColorRed.UseVisualStyleBackColor = false;
+            this.ColorRed.Click += new System.EventHandler(this.CambiarPaletaColor);
+            // 
+            // ColorOrange
+            // 
+            this.ColorOrange.BackColor = System.Drawing.Color.Orange;
+            this.ColorOrange.BackgroundColor = System.Drawing.Color.Orange;
+            this.ColorOrange.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorOrange.BorderRadius = 5;
+            this.ColorOrange.BorderSize = 0;
+            this.ColorOrange.FlatAppearance.BorderSize = 0;
+            this.ColorOrange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorOrange.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorOrange.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorOrange.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorOrange.Location = new System.Drawing.Point(219, 85);
+            this.ColorOrange.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorOrange.Name = "ColorOrange";
+            this.ColorOrange.Size = new System.Drawing.Size(20, 20);
+            this.ColorOrange.TabIndex = 21;
+            this.ColorOrange.TextColor = System.Drawing.Color.Wheat;
+            this.ColorOrange.UseVisualStyleBackColor = false;
+            this.ColorOrange.Click += new System.EventHandler(this.CambiarPaletaColor);
+            // 
+            // ColorGrey
+            // 
+            this.ColorGrey.BackColor = System.Drawing.Color.DarkGray;
+            this.ColorGrey.BackgroundColor = System.Drawing.Color.DarkGray;
+            this.ColorGrey.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorGrey.BorderRadius = 5;
+            this.ColorGrey.BorderSize = 0;
+            this.ColorGrey.FlatAppearance.BorderSize = 0;
+            this.ColorGrey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorGrey.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorGrey.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorGrey.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorGrey.Location = new System.Drawing.Point(244, 119);
+            this.ColorGrey.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorGrey.Name = "ColorGrey";
+            this.ColorGrey.Size = new System.Drawing.Size(20, 20);
+            this.ColorGrey.TabIndex = 34;
+            this.ColorGrey.TextColor = System.Drawing.Color.Wheat;
+            this.ColorGrey.UseVisualStyleBackColor = false;
+            this.ColorGrey.Click += new System.EventHandler(this.CambiarColorTexto);
+            // 
+            // ColorGreen
+            // 
+            this.ColorGreen.BackColor = System.Drawing.Color.YellowGreen;
+            this.ColorGreen.BackgroundColor = System.Drawing.Color.YellowGreen;
+            this.ColorGreen.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorGreen.BorderRadius = 5;
+            this.ColorGreen.BorderSize = 0;
+            this.ColorGreen.FlatAppearance.BorderSize = 0;
+            this.ColorGreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorGreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorGreen.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorGreen.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorGreen.Location = new System.Drawing.Point(244, 85);
+            this.ColorGreen.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorGreen.Name = "ColorGreen";
+            this.ColorGreen.Size = new System.Drawing.Size(20, 20);
+            this.ColorGreen.TabIndex = 22;
+            this.ColorGreen.TextColor = System.Drawing.Color.Wheat;
+            this.ColorGreen.UseVisualStyleBackColor = false;
+            this.ColorGreen.Click += new System.EventHandler(this.CambiarPaletaColor);
+            // 
+            // ColorGreyblue
+            // 
+            this.ColorGreyblue.BackColor = System.Drawing.Color.LightSlateGray;
+            this.ColorGreyblue.BackgroundColor = System.Drawing.Color.LightSlateGray;
+            this.ColorGreyblue.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorGreyblue.BorderRadius = 5;
+            this.ColorGreyblue.BorderSize = 0;
+            this.ColorGreyblue.FlatAppearance.BorderSize = 0;
+            this.ColorGreyblue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorGreyblue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorGreyblue.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorGreyblue.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorGreyblue.Location = new System.Drawing.Point(219, 119);
+            this.ColorGreyblue.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorGreyblue.Name = "ColorGreyblue";
+            this.ColorGreyblue.Size = new System.Drawing.Size(20, 20);
+            this.ColorGreyblue.TabIndex = 33;
+            this.ColorGreyblue.TextColor = System.Drawing.Color.Wheat;
+            this.ColorGreyblue.UseVisualStyleBackColor = false;
+            this.ColorGreyblue.Click += new System.EventHandler(this.CambiarColorTexto);
+            // 
+            // ColorTurquoise
+            // 
+            this.ColorTurquoise.BackColor = System.Drawing.Color.Turquoise;
+            this.ColorTurquoise.BackgroundColor = System.Drawing.Color.Turquoise;
+            this.ColorTurquoise.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorTurquoise.BorderRadius = 5;
+            this.ColorTurquoise.BorderSize = 0;
+            this.ColorTurquoise.FlatAppearance.BorderSize = 0;
+            this.ColorTurquoise.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorTurquoise.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorTurquoise.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorTurquoise.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorTurquoise.Location = new System.Drawing.Point(268, 85);
+            this.ColorTurquoise.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorTurquoise.Name = "ColorTurquoise";
+            this.ColorTurquoise.Size = new System.Drawing.Size(20, 20);
+            this.ColorTurquoise.TabIndex = 23;
+            this.ColorTurquoise.TextColor = System.Drawing.Color.Wheat;
+            this.ColorTurquoise.UseVisualStyleBackColor = false;
+            this.ColorTurquoise.Click += new System.EventHandler(this.CambiarPaletaColor);
+            // 
+            // ColorCeleste
+            // 
+            this.ColorCeleste.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.ColorCeleste.BackgroundColor = System.Drawing.Color.CornflowerBlue;
+            this.ColorCeleste.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorCeleste.BorderRadius = 5;
+            this.ColorCeleste.BorderSize = 0;
+            this.ColorCeleste.FlatAppearance.BorderSize = 0;
+            this.ColorCeleste.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorCeleste.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorCeleste.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorCeleste.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorCeleste.Location = new System.Drawing.Point(292, 85);
+            this.ColorCeleste.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorCeleste.Name = "ColorCeleste";
+            this.ColorCeleste.Size = new System.Drawing.Size(20, 20);
+            this.ColorCeleste.TabIndex = 24;
+            this.ColorCeleste.TextColor = System.Drawing.Color.Wheat;
+            this.ColorCeleste.UseVisualStyleBackColor = false;
+            this.ColorCeleste.Click += new System.EventHandler(this.CambiarPaletaColor);
+            // 
+            // TextBlack
+            // 
+            this.TextBlack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.TextBlack.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.TextBlack.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.TextBlack.BorderRadius = 5;
+            this.TextBlack.BorderSize = 0;
+            this.TextBlack.FlatAppearance.BorderSize = 0;
+            this.TextBlack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TextBlack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.TextBlack.ForeColor = System.Drawing.Color.Wheat;
+            this.TextBlack.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.TextBlack.Location = new System.Drawing.Point(195, 119);
+            this.TextBlack.Margin = new System.Windows.Forms.Padding(4);
+            this.TextBlack.Name = "TextBlack";
+            this.TextBlack.Size = new System.Drawing.Size(20, 20);
+            this.TextBlack.TabIndex = 31;
+            this.TextBlack.TextColor = System.Drawing.Color.Wheat;
+            this.TextBlack.UseVisualStyleBackColor = false;
+            this.TextBlack.Click += new System.EventHandler(this.CambiarColorTexto);
+            // 
+            // ColorViolet
+            // 
+            this.ColorViolet.BackColor = System.Drawing.Color.MediumPurple;
+            this.ColorViolet.BackgroundColor = System.Drawing.Color.MediumPurple;
+            this.ColorViolet.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.ColorViolet.BorderRadius = 5;
+            this.ColorViolet.BorderSize = 0;
+            this.ColorViolet.FlatAppearance.BorderSize = 0;
+            this.ColorViolet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ColorViolet.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ColorViolet.ForeColor = System.Drawing.Color.Wheat;
+            this.ColorViolet.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ColorViolet.Location = new System.Drawing.Point(316, 85);
+            this.ColorViolet.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorViolet.Name = "ColorViolet";
+            this.ColorViolet.Size = new System.Drawing.Size(20, 20);
+            this.ColorViolet.TabIndex = 25;
+            this.ColorViolet.TextColor = System.Drawing.Color.Wheat;
+            this.ColorViolet.UseVisualStyleBackColor = false;
+            this.ColorViolet.Click += new System.EventHandler(this.CambiarPaletaColor);
+            // 
+            // TextWhite
+            // 
+            this.TextWhite.BackColor = System.Drawing.Color.FloralWhite;
+            this.TextWhite.BackgroundColor = System.Drawing.Color.FloralWhite;
+            this.TextWhite.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.TextWhite.BorderRadius = 5;
+            this.TextWhite.BorderSize = 0;
+            this.TextWhite.FlatAppearance.BorderSize = 0;
+            this.TextWhite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TextWhite.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.TextWhite.ForeColor = System.Drawing.Color.Wheat;
+            this.TextWhite.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.TextWhite.Location = new System.Drawing.Point(171, 119);
+            this.TextWhite.Margin = new System.Windows.Forms.Padding(4);
+            this.TextWhite.Name = "TextWhite";
+            this.TextWhite.Size = new System.Drawing.Size(20, 20);
+            this.TextWhite.TabIndex = 30;
+            this.TextWhite.TextColor = System.Drawing.Color.Wheat;
+            this.TextWhite.UseVisualStyleBackColor = false;
+            this.TextWhite.Click += new System.EventHandler(this.CambiarColorTexto);
+            // 
+            // AsignarBtnAutoClick
+            // 
+            this.AsignarBtnAutoClick.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(89)))), ((int)(((byte)(255)))));
+            this.AsignarBtnAutoClick.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(89)))), ((int)(((byte)(255)))));
+            this.AsignarBtnAutoClick.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.AsignarBtnAutoClick.BorderRadius = 20;
+            this.AsignarBtnAutoClick.BorderSize = 0;
+            this.AsignarBtnAutoClick.FlatAppearance.BorderSize = 0;
+            this.AsignarBtnAutoClick.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AsignarBtnAutoClick.ForeColor = System.Drawing.Color.FloralWhite;
+            this.AsignarBtnAutoClick.Location = new System.Drawing.Point(194, 49);
+            this.AsignarBtnAutoClick.Name = "AsignarBtnAutoClick";
+            this.AsignarBtnAutoClick.Size = new System.Drawing.Size(111, 40);
+            this.AsignarBtnAutoClick.TabIndex = 69;
+            this.AsignarBtnAutoClick.Text = "Asignar Tecla";
+            this.AsignarBtnAutoClick.TextColor = System.Drawing.Color.FloralWhite;
+            this.AsignarBtnAutoClick.UseVisualStyleBackColor = false;
+            this.AsignarBtnAutoClick.Click += new System.EventHandler(this.AsignarBtnAutoClick_Click);
             // 
             // Separador1
             // 
@@ -1334,6 +1300,42 @@ namespace InputsHookControler
             this.gradientPanelBottom.TabIndex = 22;
             this.gradientPanelBottom.TabStop = false;
             // 
+            // gradientPanelRight1
+            // 
+            this.gradientPanelRight1.Angle = 90F;
+            this.gradientPanelRight1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.gradientPanelRight1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
+            this.gradientPanelRight1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.gradientPanelRight1.Location = new System.Drawing.Point(577, 3);
+            this.gradientPanelRight1.Name = "gradientPanelRight1";
+            this.gradientPanelRight1.Size = new System.Drawing.Size(3, 33);
+            this.gradientPanelRight1.TabIndex = 19;
+            this.gradientPanelRight1.TabStop = false;
+            // 
+            // gradientPanelUP
+            // 
+            this.gradientPanelUP.Angle = 180F;
+            this.gradientPanelUP.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.gradientPanelUP.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
+            this.gradientPanelUP.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gradientPanelUP.Location = new System.Drawing.Point(3, 0);
+            this.gradientPanelUP.Name = "gradientPanelUP";
+            this.gradientPanelUP.Size = new System.Drawing.Size(577, 3);
+            this.gradientPanelUP.TabIndex = 20;
+            this.gradientPanelUP.TabStop = false;
+            // 
+            // gradientPanelLeft1
+            // 
+            this.gradientPanelLeft1.Angle = 270F;
+            this.gradientPanelLeft1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.gradientPanelLeft1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(70)))), ((int)(((byte)(255)))));
+            this.gradientPanelLeft1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gradientPanelLeft1.Location = new System.Drawing.Point(0, 0);
+            this.gradientPanelLeft1.Name = "gradientPanelLeft1";
+            this.gradientPanelLeft1.Size = new System.Drawing.Size(3, 36);
+            this.gradientPanelLeft1.TabIndex = 21;
+            this.gradientPanelLeft1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1361,9 +1363,6 @@ namespace InputsHookControler
             this.panel16.ResumeLayout(false);
             this.BarraSuperior.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelRight1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelUP)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelLeft1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
             this.OptionsMaster.ResumeLayout(false);
             this.OptionsMaster.PerformLayout();
@@ -1383,6 +1382,9 @@ namespace InputsHookControler
             ((System.ComponentModel.ISupportInitialize)(this.gradientPanelRight2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gradientPanelLeft2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gradientPanelBottom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelRight1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelUP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gradientPanelLeft1)).EndInit();
             this.ResumeLayout(false);
 
         }

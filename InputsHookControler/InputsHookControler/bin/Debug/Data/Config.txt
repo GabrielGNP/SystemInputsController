@@ -4,7 +4,7 @@ ColorFloralWhite
 false
 true
 false
-10
+15
 Subtract + LControl 
-Activar
-ClickIzq
+Mantener
+ClickDer
